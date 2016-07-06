@@ -6,8 +6,13 @@ A little module that outputs a video file's bits-per-pixel value, i.e.:
 
 ## How?
 
-```bash
-node index.js /path/to/video.mp4 # => 0.87
+```javascript
+const bpp = require("./bpp/index.js");
+const a = bpp.calculate('/path/to/video.mp4', function (b) {
+    setTimeout(function () {
+        console.log(b);
+        }, 100);
+});
 ```
 
 ## Reference
