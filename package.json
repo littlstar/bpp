@@ -1,5 +1,5 @@
 {
-  "name": "bits-per-pixel",
+  "name": "bpp",
   "version": "1.0.0",
   "description": "Calculate a video stream's {bits / (pixel * frame)} measurement.",
   "main": "index.js",
