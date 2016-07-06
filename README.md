@@ -6,6 +6,8 @@ A little module that outputs a video file's bits-per-pixel value, i.e.:
 
 ## How?
 
+This module depends upon [FFmpeg](https://www.ffmpeg.org "FFmpeg Project Homepage"). Any recent version should do.
+
 First, do `npm install --save littlstar/bpp.git`.
 
 Then:
