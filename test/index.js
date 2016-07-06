@@ -4,7 +4,7 @@ const b = require("../");
 
 const a = b.calculate('./test.mp4', function(c) {
     setTimeout(function () {
-        console.log(c);
+        console.log("Actual: " + c);
     }, 1000);
 });
 
