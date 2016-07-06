@@ -2,7 +2,7 @@
 
 A little module that outputs a video file's bits-per-pixel value, i.e.:
 
-**bits_in_video / (video_height * video_width * video_fps)**
+**video_bitrate / (video_height * video_width * video_fps)**
 
 ## How?
 
