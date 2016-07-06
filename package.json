@@ -1,0 +1,23 @@
+{
+  "name": "bits-per-pixel",
+  "version": "1.0.0",
+  "description": "Calculate a video stream's {bits / (pixel * frame)} measurement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Grathwohl",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlstar/bpp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/littlstar/bpp/issues"
+  },
+  "homepage": "https://github.com/littlstar/bpp#readme"
+}
